@@ -4,17 +4,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="comportamiento.js" ></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./style.css" >
     <title>To do List</title>
   </head>
   <body>
+    <center>
     <div id="myDIV" class="header">
-        <h3>To Do List:</h3>
+        <h2>To Do List:</h2>
         <input type="text" id="tarea" placeholder="Agregar Tarea">
-        <button type="button" class="btn btn-info" onclick="agregarItem">Agregar</button>
+        <button type="button" class="btn btn-light" onclick="agregarItem(document.getElementById(`tarea`).value)">Agregar</button>
+      </center>
+        <ul id="lista" style="list-style: none;">
+        </ul>
       </div>  
-
+    
   </body>

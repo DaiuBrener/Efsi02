@@ -1,0 +1,23 @@
+h10{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+body{
+background-color: #a8a7ff;
+margin: 100px;
+}
+
+h2{
+    color: #5d3bf8;
+}
+
+.checkbox{
+    font-size: 28px;
+  
+  }
+li{
+    align-items: center;
+}
